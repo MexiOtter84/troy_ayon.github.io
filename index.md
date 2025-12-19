@@ -20,6 +20,8 @@ Code review is a systematic process where developers check each other’s code f
 
 The first artifact of this portfolio is a Hair Salon website where customers can fill out a form with their chosen services and see what their total cost will be for their appointment. The entire website is built from backend to frontend by me and is a great example of my full stack capabilities.
 
+<center> <a href="" title="Click here to view the artifact report"><img src="KrakensSalon.jpg" height=400></a> </center>
+
 <code> You can see the full report and code for this project <a href=""> HERE </a>. </code>
 
 <br>
