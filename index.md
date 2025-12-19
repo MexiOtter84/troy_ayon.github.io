@@ -16,7 +16,7 @@ Welcome to my final computer science capstone project. The following pages inclu
 
 Code review is a systematic process where developers check each other’s code for errors, quality, and project standards before merging. It catches bugs, encourages collaboration, and ensures best practices, focusing on functionality, design, security, and coding style to make software reliable and maintainable.
 
-<code> You can watch the code review <a href=""> HERE </a>.</code>
+<code> You can watch the code review <a href="https://www.youtube.com/watch?v=deuyQhpn83k"> HERE </a>.</code>
 
 <br> 
 
