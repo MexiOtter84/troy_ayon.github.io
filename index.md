@@ -44,9 +44,9 @@ The second artifact chosen for this portfolio is a slide show that contains info
 
 The third artifact selected for this portfolio is a database project featuring a Python TKinter graphical user interface, which utilizes SQLite for database communication. This artifact demonstrates my proficiency in data collection and interpretation.
 
-<center> <a href="" title="Click here to view the artifact report"><img src="CustomerRecords.png" height=400></a> </center>
+<center> <a href="https://github.com/MexiOtter84/troy_ayon.github.io/tree/Artifact-3/Artifact%203/CustomerRecords" title="Click here to view the artifact report"><img src="CustomerRecords.png" height=400></a> </center>
 
-<code> You can see the full report and code for this project <a href=""> HERE </a>. </code>
+<code> You can see the full report and code for this project <a href="https://github.com/MexiOtter84/troy_ayon.github.io/tree/Artifact-3/Artifact%203/CustomerRecords"> HERE </a>. </code>
 
 <br>
 <br>
