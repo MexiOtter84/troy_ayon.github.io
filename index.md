@@ -8,7 +8,11 @@
 
 <br>
 
-#### Code Review
+## Final Computer Science Capstone Project
+
+Welcome to my final computer science capstone project. The following pages include the three artifacts that I have chosen to properly update and design to meet specific course outcomes in order to complete this project successfully. This page begins with a code review of the three artifacts that I have chosen with planned modifications that will be performed to meet the course outcomes. A brief overview of the projects selected with links to each project's readme and associated files. The last section is a professional self-assessment that reflects on my time here at SNHU and how I will apply these skills to my professional career as I move forward with this degree.  
+
+### Code Review
 
 Code review is a systematic process where developers check each other’s code for errors, quality, and project standards before merging. It catches bugs, encourages collaboration, and ensures best practices, focusing on functionality, design, security, and coding style to make software reliable and maintainable.
 
@@ -16,7 +20,7 @@ Code review is a systematic process where developers check each other’s code f
 
 <br> 
 
-#### Project 1: Software Engineering and Design
+### Project 1: Software Engineering and Design
 
 The first artifact of this portfolio is a Hair Salon website where customers can fill out a form with their chosen services and see what their total cost will be for their appointment. The entire website is built from backend to frontend by me and is a great example of my full stack capabilities.
 
@@ -26,7 +30,7 @@ The first artifact of this portfolio is a Hair Salon website where customers can
 
 <br>
 
-#### Project 2: Algorithms and Data Structures
+### Project 2: Algorithms and Data Structures
 
 The second artifact chosen for this portfolio is a slide show that contains information about all twelve zodiac signs which was written in Java. This artifact displays my knowledge of Object Oriented Programming along with the implementation of design aspects.
 
@@ -36,7 +40,7 @@ The second artifact chosen for this portfolio is a slide show that contains info
 
 <br>
 
-#### Project 3: Databases
+### Project 3: Databases
 
 The third artifact selected for this portfolio is a database project featuring a Python TKinter graphical user interface, which utilizes SQLite for database communication. This artifact demonstrates my proficiency in data collection and interpretation.
 
