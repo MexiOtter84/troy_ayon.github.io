@@ -49,3 +49,20 @@ The third artifact selected for this portfolio is a database project featuring a
 
 ## Professional Self-Assessment
 
+As I approach the completion of my studies in the Computer Science program at Southern New Hampshire University (SNHU), I find it valuable to reflect on my academic journey and evaluate how my experiences have prepared me to continue my career as a software developer. This self-assessment highlights key achievements, lessons learned, and the alignment of my education with my professional aspirations.
+
+The curriculum at SNHU offered a comprehensive foundation in computer science principles, programming languages, and software engineering methodologies. Throughout the program, I gained proficiency in languages such as Python, Java, and C++, which are essential tools in the software development industry. Courses in algorithms, data structures, and database management systems challenged me to think critically and solve complex problems efficiently. Collaborative projects and hands-on assignments allowed me to apply theoretical concepts to real-world scenarios. Participating in team-based software development projects improved my communication skills and taught me the value of effective collaboration, version control, and agile practices. These experiences mirror the dynamics of professional development environments and have equipped me with the technical and interpersonal skills necessary for success.
+
+My primary career goal is to advance as a software developer, building innovative solutions and contributing to impactful projects. The coursework and extracurricular opportunities at SNHU have directly supported this ambition. By working on this capstone project and internships, I have had the chance to design, develop, and deploy software applications, which closely aligns with the responsibilities I aim to take on as I move forward in my career. Additionally, SNHU emphasized the importance of lifelong learning and adaptability in technology. I have developed a growth mindset, staying current with emerging technologies and best practices. This attitude is crucial in a field where rapid change is the norm, and it will continue to guide my professional development as I pursue new challenges and opportunities.
+
+
+
+<code> Course Outcome 1 </code>
+
+<code> Course Outcome 2 </code>
+
+<code> Course Outcome 3 </code>
+
+<code> Course Outcome 4 </code>
+
+<code> Course Outcome 5 </code> 
