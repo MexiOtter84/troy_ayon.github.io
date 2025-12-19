@@ -26,3 +26,7 @@ The applicaiton itself serves its purpose of educating the user about the twelve
 ## <pre align="center"> Original Slideshow - Destination Trips </pre>
 
 <img src="OriginalDestination.png">
+
+## <pre align="center"> Updated Zodiac Slideshow </pre>
+
+<img src="Zodiac.png">
