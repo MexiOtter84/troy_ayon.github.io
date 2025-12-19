@@ -6,11 +6,15 @@
 
 ## <center> CS-499 | SNHU </center>
 
+<br>
+
 #### Code Review
 
-A code review involves quality assur
+Code review is a systematic process where developers check each other’s code for errors, quality, and project standards before merging. It catches bugs, encourages collaboration, and ensures best practices, focusing on functionality, design, security, and coding style to make software reliable and maintainable.
 
 <code> You can watch the code review <a href="">Here</a>.</code>
+
+<br> 
 
 #### Project 1: Software Engineering and Design
 
