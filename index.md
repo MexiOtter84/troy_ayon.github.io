@@ -34,9 +34,9 @@ The first artifact of this portfolio is a Hair Salon website where customers can
 
 The second artifact chosen for this portfolio is a slide show that contains information about all twelve zodiac signs which was written in Java. This artifact displays my knowledge of Object Oriented Programming along with the implementation of design aspects.
 
-<center> <a href="https://github.com/MexiOtter84/troy_ayon.github.io/tree/Artifact-2/Artifact%202" title="Click here to view the artifact report"><img src="ZodiacShow.png" height=400></a> </center>
+<center> <a href="https://github.com/MexiOtter84/troy_ayon.github.io/tree/main/Artifact%202" title="Click here to view the artifact report"><img src="ZodiacShow.png" height=400></a> </center>
 
-<code> You can see the full report and code for this project <a href="https://github.com/MexiOtter84/troy_ayon.github.io/tree/Artifact-2/Artifact%202"> HERE </a>. </code>
+<code> You can see the full report and code for this project <a href="https://github.com/MexiOtter84/troy_ayon.github.io/tree/main/Artifact%202"> HERE </a>. </code>
 
 <br>
 
