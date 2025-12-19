@@ -10,7 +10,7 @@ This project is an excellent example for showcasing algorithms and data structur
 
 I also added further enhancements, including a random button featured in my initial plans. Although I encountered challenges in displaying the button and text boxes correctly within the Java application—which I'm still working to resolve—the random button itself works by utilizing Java's random library to generate a number from 1 to 12. This number determines how many times a for loop calls the goNext function to iterate through the slides. Additionally, I used the Color module to adjust background, button, and text colors, moving away from the original bright green and blue theme to more natural tones that are still being refined ahead of final release.
 
-Going through the expected course outcomes, I was able to meet two of them specifically with this artifact’s enhancement features applied which include:
+Going through the expected course outcomes, I was able to meet two of them specifically with this artifact which include:
 
 <code> Course Outcome 2: Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts</code>
 
