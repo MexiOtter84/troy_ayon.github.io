@@ -25,5 +25,10 @@ For future updates, I also plan to use this as a base for a website idea I have 
 
 ### <pre align="center"> Original Project running in Terminal </pre>
 
+<img src="OriginalPython.png">
 
 ### <pre align="center"> Final Design </pre>
+
+<img src="KrakensWebsite.png">
+
+<img src="KrakensAdmin.png">
