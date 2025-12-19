@@ -61,12 +61,12 @@ My primary career goal is to advance as a software developer, building innovativ
 
 
 
-<code> Course Outcome 1 </code>
+<code> Course Outcome 1: </code> I Employed strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science by completing the code review before beginning my enhancements. Code review plays a critical role in the successful delivery of software projects by enabling developers to identify areas for improvement through comprehensive analysis. This process supports effective organizational decision-making. A similar benefit can be observed in Project 3: Databases, which involved developing a front-end database with Python and SQLite. This project fosters collaboration by allowing users—including those without programming expertise—to easily input data, contributing to a more inclusive and efficient working environment.
 
-<code> Course Outcome 2 </code>
+<code> Course Outcome 2: </code> I Designed, Developed, and Delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts by completing Project 1: Software Engineering and Design. This project is grounded in a professionally developed front-end design, tailored specifically for business use. Both the visual elements and written content adhere to high standards of professionalism, resulting in a cohesive and technically robust website. Additionally, the backend infrastructure complements the front-end seamlessly, reflecting my comprehensive expertise in full stack development.
 
-<code> Course Outcome 3 </code>
+<code> Course Outcome 3: </code>
 
-<code> Course Outcome 4 </code>
+<code> Course Outcome 4: </code>
 
-<code> Course Outcome 5 </code> 
+<code> Course Outcome 5: </code> 
