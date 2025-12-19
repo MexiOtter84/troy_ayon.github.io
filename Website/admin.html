@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Admin Dashboard - Kraken's Salon</title>
+		<link href="style.css" style="text/css" rel="stylesheet">
+		<script type="text/javascript" src="admin.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<!-- Header -->
+			<div id="header">
+				<h1 style="float: left">Kraken's Hair Salon - Admin Dashboard</h1>
+				<pre id="info">(509)555-5555<br>55 Starlight Road, Richland</pre>
+				<a href="admin.html" class="menu">ADMIN</a>
+				<a href="contact-us.html" class="menu">CONTACT US</a>
+				<a href="services.html" class="menu">SERVICES</a>
+				<a href="index.html" class="menu">HOME</a>
+			</div>
+
+			<!-- Admin Dashboard Content -->
+			<div id="admin-dashboard">
+				<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+					<h2 style="margin: 0;">Booking Management</h2>
+					<button onclick="handleLogout()" class="logout-btn">Logout</button>
+				</div>
+
+				<div id="dashboard-controls">
+					<button onclick="loadBookings()" class="refresh-btn">Refresh Bookings</button>
+					<span id="booking-count" class="booking-count"></span>
+				</div>
+
+				<div id="loading" class="loading">Loading bookings...</div>
+				<div id="error-message" class="error-message" style="display: none;"></div>
+
+				<!-- Bookings Table -->
+				<div id="bookings-container">
+					<table id="bookings-table" class="bookings-table">
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Date</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>Phone</th>
+								<th>Services</th>
+								<th>Total Cost</th>
+								<th>Preferences</th>
+								<th>Actions</th>
+							</tr>
+						</thead>
+						<tbody id="bookings-tbody">
+							<!-- Bookings will be inserted here by JavaScript -->
+						</tbody>
+					</table>
+				</div>
+
+				<div id="no-bookings" class="no-bookings" style="display: none;">
+					<p>No bookings found. Bookings will appear here once customers submit the booking form.</p>
+				</div>
+			</div>
+
+			<!-- Edit Modal -->
+			<div id="edit-modal" class="modal">
+				<div class="modal-content">
+					<span class="close-btn" onclick="closeEditModal()">&times;</span>
+					<h2>Edit Booking</h2>
+
+					<form id="edit-form">
+						<input type="hidden" id="edit-booking-id">
+
+						<label for="edit-first-name">First Name:</label>
+						<input type="text" id="edit-first-name" required><br><br>
+
+						<label for="edit-last-name">Last Name:</label>
+						<input type="text" id="edit-last-name" required><br><br>
+
+						<label for="edit-phone">Phone:</label>
+						<input type="text" id="edit-phone" required><br><br>
+
+						<label for="edit-preferences">Preferences:</label>
+						<input type="text" id="edit-preferences" required><br><br>
+
+						<h3>Services</h3>
+						<div class="services-checkboxes">
+							<label>
+								<input type="checkbox" id="edit-service-foil">
+								Foiling ($155)
+							</label><br>
+
+							<label>
+								<input type="checkbox" id="edit-service-hair-cut">
+								Hair Cut ($40)
+							</label><br>
+
+							<label>
+								<input type="checkbox" id="edit-service-balagge">
+								Balayage ($195)
+							</label><br>
+
+							<label>
+								<input type="checkbox" id="edit-service-all-over-color">
+								All Over Color ($130)
+							</label><br>
+
+							<label>
+								<input type="checkbox" id="edit-service-wash-and-style">
+								Wash & Style ($60)
+							</label><br>
+
+							<label>
+								<input type="checkbox" id="edit-service-brow-wax">
+								Brow Wax ($50)
+							</label>
+						</div>
+
+						<div class="modal-total">
+							<strong>Total: $<span id="edit-total-cost">0</span></strong>
+						</div>
+
+						<div class="modal-buttons">
+							<button type="button" onclick="saveBooking()" class="save-btn">Save Changes</button>
+							<button type="button" onclick="closeEditModal()" class="cancel-btn">Cancel</button>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div id="footer">
+				<p>&copy; 2024 Kraken's Hair Salon. All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>

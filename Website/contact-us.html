@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- File that contains a webform that is utillized in order to contact the company -->
+<html>
+	<head>
+		<title>Kraken's Salon</title>
+		<!-- Contains a direct link to the styling of all resources -->
+		<link href="style.css" style="text/css" rel="stylesheet">
+		<!-- This javascript resource controls the entire shop portion of the website -->
+		<script type="text/javascript" src="hairshop.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<!-- The main header of the website that has the name and all navigation information -->
+			<div id="header">
+				<h1 style="float: left">Kraken's Hair Salon</h1>
+				<pre id="info">(509)555-5555<br>55 Starlight Road, Richland</pre>
+				<a href="contact-us.html" class="menu">CONTACT US</a>
+				<a href="services.html" class="menu">SERVICES</a>
+				<a href="index.html" class="menu">HOME</a>
+			</div>
+			<div id="form">
+				<h2>Contact Us</h2>
+				<form name="order_form" action="" method="GET">
+					<!-- Customer information for contacting back including first and last name, phone number and a short message -->
+					<label for="fname">First Name<font color="red">*</font></label><br>
+					<input type="text" id="fname" name="fname" required><br><br>
+					<label for="lname">Last Name<font color="red">*</font></label><br>
+					<input type="text" id="lname" name="lname" required><br><br>
+					<label for="phone">Phone Number<font color="red">*</font></label><br>
+					<input type="text" id="phone" name="phone" required><br><br>
+					<label for="message">Your message</label><br>
+					<textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+					<!-- Submit form button -->
+					<input type="button" value="Submit" id="submit" onclick="submitForm(this.form)">
+				</form>
+			</div>
+			<!-- Link to the works cited page -->
+			<a href="resources.html" style="text-decoration: none; background-color: #90ADC6;">
+				<div id="resources">
+					Resources Cited
+				</div>
+			</a>
+		</div>
+	</body>
+</html>

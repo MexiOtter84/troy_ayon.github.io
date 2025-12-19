@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- Main resource that contains the primary webform -->
+<html>
+	<head>
+		<title>Kraken's Salon</title>
+		<!-- Contains a direct link to the styling of all resources -->
+		<link href="style.css" style="text/css" rel="stylesheet">
+		<!-- This javascript resource controls the entire shop portion of the website -->
+		<script type="text/javascript" src="hairshop.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<!-- The main header of the website that has the name and all navigation information -->
+			<div id="header">
+				<h1 style="float: left">Kraken's Hair Salon</h1>
+				<pre id="info">(509)555-5555<br>55 Starlight Road, Richland</pre>
+				<a href="contact-us.html" class="menu">CONTACT US</a>
+				<a href="services.html" class="menu">SERVICES</a>
+				<a href="index.html" class="menu">HOME</a>
+			</div>
+		<!-- Following webform allows for customers to make their salon selections -->
+		<div id ="form">
+		<h2>Services Request Form</h2>
+		<form name ="order_form" action="" method="GET">
+			<!-- Customer enters in their first and last name, phone number and any preferences they have -->
+			<label for="fname">First Name<font color="red">*</font></label><br>
+			<input type="text" id="fname" name="fname" required><br><br>
+			<label for="lname">Last Name<font color="red">*</font></label><br>
+			<input type="text" id="lname" name="lname"><br><br>
+			<label for="phone">Phone Number<font color="red">*</font></label><br>
+			<input type="text" id="phone" name="phone"><br><br>
+			<label for="preferences">Any Preferences or Requests<font color="red">*</font></label><br>
+			<input type="text" id="preferences" name="preferences"><br><br>
+			<!-- Customers select all services that they would like -->
+			<hr><br>
+			<b>Which services would you like to schedule?</b><br><br>
+			<!-- Foil option -->
+			<input type="checkbox" id="foil" name="foil" value="foil" onclick="updatePrice(this.form)">
+			<label for="foil">Foils</label><br><br>
+			<!-- Haircut option -->
+			<input type="checkbox" id="hair_cut" name="hair_cut" value="hair_cut" onclick="updatePrice(this.form)">
+			<label for="hair_cut">Haircut</label><br><br>
+			<!-- Balagge option -->
+			<input type="checkbox" id="balagge" name="balagge" value="balagge" onclick="updatePrice(this.form)">
+			<label for="balagge">Balagge</label><br><br>
+			<!-- All Over Color option -->
+			<input type="checkbox" id="all_over_color" name="all_over_color" value="all_over_color" onclick="updatePrice(this.form)">
+			<label for="all_over_color">All Over Color</label><br><br>
+			<!-- Wash and Style option -->
+			<input type="checkbox" id="wash_and_style" name="wash_and_style" value="wash_and_style" onclick="updatePrice(this.form)">
+			<label for="wash_and_style">Wash and Style</label><br><br>
+			<!-- Brow Wax option -->
+			<input type="checkbox" id="brow_wax" name="brow_wax" value="brow_wax" onclick="updatePrice(this.form)">
+			<label for="brow_wax">Brow Wax</label><br><br>
+			<!-- Submit, Reset and Select All display order for buttons on form -->
+			<input type="button" value="Submit" id="submit" onclick="submitForm(this.form)">
+			<input type="button" value="Reset" id="submit" onclick="resetForm(this.form)">
+			<input type="button" value="Select All" id="submit" onclick="selectAll(this.form);updatePrice(this.form)">
+			<!-- Diplay total cost of services selected -->
+			<div id="total">$0</div>
+			<div id="booking"></div>
+		</form>
+	</div>
+	<!-- Link to the works cited page -->
+	<a href="resources.html" style="text-decoration: none; background-color: #90ADC6;">
+		<div id="resources">
+			Resources Cited
+		</div>
+	</a>
+	</div>
+	</body>
+</html>

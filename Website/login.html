@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Admin Login - Kraken's Salon</title>
+		<link href="style.css" style="text/css" rel="stylesheet">
+		<script type="text/javascript" src="login.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<!-- Header -->
+			<div id="header">
+				<h1 style="float: left">Kraken's Hair Salon</h1>
+				<pre id="info">(509)555-5555<br>55 Starlight Road, Richland</pre>
+				<a href="contact-us.html" class="menu">CONTACT US</a>
+				<a href="services.html" class="menu">SERVICES</a>
+				<a href="index.html" class="menu">HOME</a>
+			</div>
+
+			<!-- Login Form -->
+			<div id="login-container">
+				<h2>Admin Login</h2>
+				<p class="login-subtitle">Please enter your credentials to access the admin dashboard</p>
+
+				<div id="login-error" class="login-error" style="display: none;"></div>
+
+				<form id="login-form" onsubmit="handleLogin(event)">
+					<label for="username">Username:</label>
+					<input type="text" id="username" name="username" required autofocus><br><br>
+
+					<label for="password">Password:</label>
+					<input type="password" id="password" name="password" required><br><br>
+
+					<button type="submit" id="login-btn" class="login-btn">Login</button>
+				</form>
+
+				<div class="login-info">
+					<p><strong>Default credentials:</strong></p>
+					<p>Username: <code>admin</code></p>
+					<p>Password: <code>admin123</code></p>
+				</div>
+			</div>
+
+			<!-- Footer -->
+			<div id="footer">
+				<p>&copy; 2024 Kraken's Hair Salon. All rights reserved.</p>
+			</div>
+		</div>
+	</body>
+</html>

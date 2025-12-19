@@ -1,0 +1,720 @@
+/* This css file styles the hair salon */
+
+/* Imported fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Styling information for the body of the page */
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #400080;
+	margin: 0;
+	animation: fadeIn 3s;
+}
+
+/* Page fade-in effect information */
+@keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+/* Header styling information that contains the name of the company and links for navigations */
+#header {
+	position: absolute;
+	width: 100%;
+	height: 75px;
+	background-color: #400080;
+	color: white;
+	font-weight: bold;
+	overflow: hidden;
+	box-shadow: 0px 5px 0px #01488c;
+}
+
+/* Styling information for the Kraken's Hair Salon text */
+h1 {
+	font-family: 'Libre Baskerville', sans-serif;
+	float: left;
+	padding-left: 15px;
+	margin-top: 0px;
+	font-size: 60px;
+}
+
+/* Styling information for the services request form */
+h2 {
+	color: #001F3D;
+	text-align: center;
+}
+
+/* Class information used for the navigational links */
+.menu {
+	width: 150px;
+	height: 100%;
+	float: right;
+	text-align: center;
+	padding: 30px 0;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Container styling information that is used to wrap around the header of the webform */
+#container {
+	margin-top: 50px;
+	position: relative;
+	height: 800px;
+	width: 100%;
+	margin: auto;
+	box-shadow: 5px grey;
+	background-color: #EEEDE7;
+	background-image: url('images/bg.jpg');
+	background-size: cover;
+}
+
+/* Styling information for links */
+a {
+	color: #001F3D;
+	background-color: #ff471a;
+	height: 100%;
+	text-decoration: none;
+	transition: 0.5s ease-out;
+}
+
+/* Styling information for hoverd over links */
+a:hover {
+	background: #400080;
+	color: white;
+}
+
+/* Styling information for webform where customers select which services they require */
+#form {
+	position: relative;
+	background-color: #f2d9f2;
+	border-radius: 15px;
+	top: 100px;
+	padding: 25px;
+	box-shadow: 5px 5px lightgray;
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* Styling information for each textbox on the website for first, last names, phone number and preferences */
+input[type="text"] {
+	border-radius: 10px;
+	width: 200px;
+	height: 25px;
+	border-color: #333652;
+	transition: 0.25s;
+}
+
+/* Styling information for hover effect for textboxes */
+input[type="text"]:hover {
+	background-color: #ff471a;
+}
+
+/* Styling information for clicking effect for textboxes */
+input[type="text"]:active {
+	background-color: white;
+}
+
+/* Styling information for checkbox */
+input[type="checkbox"] {
+	apperance: none;
+	margin: 0;
+	width: 1.15em;
+	height: 1.15em;
+	border: 0.15em solid #001F3D;
+	border-radius: 0.15em;
+	background-color: white;
+	transition: 0.25s;
+	transform: translateY(0.075em);
+}
+
+/* Styling information for hovering over checkbox */
+input[type="checkbox"]:hover {
+	background-color: #ffe991;
+}
+
+/* Styling information for checkbox checked */
+input[type="checkbox"]:checked {
+	box-shadow: inset 1em 1em #90ADC6;
+}
+
+/* Styling information for checkboxes once the form is submitted */
+input[type="checkbox"][disabled]:hover {
+	background-color: lightgray;
+}
+
+/* Styling information for textboxes after the form is submitted */
+input[type="text"][disabled]:hover {
+	background-color: lightgray;
+}
+
+/* Styling information for the text area in a message for the contact us page */
+#message {
+	border: 2px solid #333652;
+	border-radius: 10px;
+	width: 75%;
+	min-width: 200px;
+	max-width: 500px;
+	min-height: 100px;
+	max-height: 300px;
+	height: 200px;
+	background-color: #f2d9f2;
+}
+
+/* Styling information for the grand total on the screen after form is submitted */
+#total {
+	background-color: #f2d9f2;
+	color: #001F3D;
+	padding: 10px;
+	padding-bottom: 15px;
+	border-radius: 15px;
+	float: right;
+	width: 100px;
+	height: 15px;
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid #001F3D;
+}
+
+/* Styling information for the submit button */
+#submit {
+	padding: 10px 10px 10px 10px;
+	border: none;
+	font-weight: bold;
+	transition: 0.25s;
+}
+
+/* Styling for hovering over the submit button within the form */
+#submit:hover {
+	background-color: #90ADC6;
+}
+
+/* Styling information for the submit button after form is submitted */
+#submit[disabled]:hover {
+	background-color: lightgray;
+}
+
+/* Styling for line breaks within page */
+hr {
+	background-color: #90ADC6;
+}
+
+/* Styling information for resources cited page */
+#resources1 {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	padding: 10px;
+	background-color: #90ADC6;
+	color: darkgray;
+}
+
+/* Styling information for the resources box located on the bottom-left of the page */
+#resources {
+	position: fixed;
+	width: 110px;
+	height: 30px;
+	padding-top: 15px;
+	background-color: #90ADC6;
+	color: white;
+	font-size: 11px;
+	letter-spacing: 0.2em;
+	text-align: center;
+	text-transform: uppercase;
+	left: 10px;
+	bottom: 0px;
+	transition: 0.5s;
+}
+
+/* Styling for when the resources box is hovered over */
+#resources:hover {
+	height: 40px;
+	font-eight: bold;
+}
+
+/* Styling information for general */
+#info {
+	padding-left: 20px;
+	padding-top: 10px;
+	float: left;
+	height: 100%;
+}
+
+/* Styling information for resources cited links */
+.resource-link {
+	text-decoration: none;
+	background-color: #f2d9f2;
+	color: darkblue;
+}
+
+/* Styling infromation for gallery located on the services.html page */
+.cover {
+	position: relative;
+	top: 100px;
+	width: 80%;
+	height: 100%;
+	margin: auto;
+}
+
+/* Class information for each box located on the services.html page */
+.photo {
+	margin-top: 20px;
+	background-color: #f2d9f2;
+	width: 49%;
+	height: 260px;
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+/* Styling information for images on the services.html page */
+img {
+	width: 400px;
+	height: 100%;
+	float: left;
+}
+
+/* Styling information for the main title on the services.html page */
+#title {
+	position: relative;
+	top: 90px;
+	margin: auto;
+	width: 300px;
+	height: 75px;
+	background-color: #f2d9f2;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+/* Admin Dashboard Styles */
+#admin-dashboard {
+	position: relative;
+	background-color: #f2d9f2;
+	border-radius: 15px;
+	top: 100px;
+	padding: 25px;
+	box-shadow: 5px 5px lightgray;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	min-height: 400px;
+}
+
+#dashboard-controls {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.refresh-btn {
+	background-color: #90ADC6;
+	color: #001F3D;
+	padding: 10px 20px;
+	border: 2px solid #001F3D;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+.refresh-btn:hover {
+	background-color: #ff471a;
+	color: white;
+}
+
+.booking-count {
+	font-weight: bold;
+	color: #001F3D;
+	font-size: 16px;
+}
+
+.loading {
+	text-align: center;
+	color: #001F3D;
+	font-size: 18px;
+	padding: 40px;
+}
+
+.error-message {
+	background-color: #ffcccc;
+	color: #cc0000;
+	padding: 15px;
+	border-radius: 5px;
+	border: 2px solid #cc0000;
+	margin-bottom: 20px;
+}
+
+.no-bookings {
+	text-align: center;
+	color: #666;
+	padding: 40px;
+	font-size: 16px;
+}
+
+.bookings-table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.bookings-table thead {
+	background-color: #400080;
+	color: white;
+}
+
+.bookings-table th {
+	padding: 12px;
+	text-align: left;
+	font-weight: bold;
+	border-bottom: 2px solid #01488c;
+}
+
+.bookings-table td {
+	padding: 12px;
+	border-bottom: 1px solid #ddd;
+	color: #333;
+}
+
+.bookings-table tbody tr:hover {
+	background-color: #f9f9f9;
+}
+
+.bookings-table tbody tr:nth-child(even) {
+	background-color: #f5f5f5;
+}
+
+.booking-id {
+	font-weight: bold;
+	color: #400080;
+}
+
+.services-cell {
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+.cost-cell {
+	font-weight: bold;
+	color: #006400;
+	font-size: 16px;
+}
+
+.preferences-cell {
+	max-width: 200px;
+	word-wrap: break-word;
+}
+
+#footer {
+	position: relative;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	background-color: #400080;
+	top: 120px;
+}
+
+/* Actions column styles */
+.actions-cell {
+	white-space: nowrap;
+}
+
+.edit-btn,
+.delete-btn {
+	padding: 6px 12px;
+	margin: 0 3px;
+	border: none;
+	border-radius: 4px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.2s;
+	font-size: 13px;
+}
+
+.edit-btn {
+	background-color: #90ADC6;
+	color: #001F3D;
+}
+
+.edit-btn:hover {
+	background-color: #01488c;
+	color: white;
+}
+
+.delete-btn {
+	background-color: #ff471a;
+	color: white;
+}
+
+.delete-btn:hover {
+	background-color: #cc0000;
+}
+
+/* Modal styles */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+	background-color: #f2d9f2;
+	margin: 5% auto;
+	padding: 30px;
+	border: 2px solid #400080;
+	border-radius: 15px;
+	width: 80%;
+	max-width: 600px;
+	position: relative;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.close-btn {
+	color: #400080;
+	float: right;
+	font-size: 35px;
+	font-weight: bold;
+	cursor: pointer;
+	line-height: 20px;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+	color: #cc0000;
+}
+
+.modal-content h2 {
+	color: #001F3D;
+	margin-top: 0;
+}
+
+.modal-content h3 {
+	color: #400080;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.modal-content label {
+	font-weight: bold;
+	color: #001F3D;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.modal-content input[type="text"] {
+	width: 90%;
+	padding: 8px;
+	border: 2px solid #400080;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.modal-content input[type="checkbox"] {
+	margin-right: 8px;
+}
+
+.services-checkboxes {
+	margin: 15px 0;
+	padding: 15px;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid #90ADC6;
+}
+
+.services-checkboxes label {
+	display: block;
+	padding: 8px 0;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.modal-total {
+	margin: 20px 0;
+	padding: 15px;
+	background-color: #90ADC6;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 18px;
+	color: #001F3D;
+}
+
+.modal-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-top: 25px;
+}
+
+.save-btn,
+.cancel-btn {
+	padding: 12px 30px;
+	border: none;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.25s;
+}
+
+.save-btn {
+	background-color: #90ADC6;
+	color: #001F3D;
+}
+
+.save-btn:hover {
+	background-color: #01488c;
+	color: white;
+}
+
+.cancel-btn {
+	background-color: #ff471a;
+	color: white;
+}
+
+.cancel-btn:hover {
+	background-color: #cc0000;
+}
+
+/* Login page styles */
+#login-container {
+	position: relative;
+	background-color: #f2d9f2;
+	border-radius: 15px;
+	top: 100px;
+	padding: 40px;
+	box-shadow: 5px 5px lightgray;
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#login-container h2 {
+	color: #001F3D;
+	margin-bottom: 10px;
+}
+
+.login-subtitle {
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 25px;
+}
+
+#login-form {
+	text-align: left;
+	margin: 20px 0;
+}
+
+#login-form label {
+	font-weight: bold;
+	color: #001F3D;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+	width: 90%;
+	padding: 12px;
+	border: 2px solid #400080;
+	border-radius: 8px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+.login-btn {
+	width: 100%;
+	padding: 14px;
+	background-color: #90ADC6;
+	color: #001F3D;
+	border: 2px solid #001F3D;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.25s;
+	margin-top: 10px;
+}
+
+.login-btn:hover {
+	background-color: #01488c;
+	color: white;
+}
+
+.login-btn:disabled {
+	background-color: #ccc;
+	color: #666;
+	cursor: not-allowed;
+	border-color: #999;
+}
+
+.login-error {
+	background-color: #ffcccc;
+	color: #cc0000;
+	padding: 12px;
+	border-radius: 8px;
+	border: 2px solid #cc0000;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.login-info {
+	margin-top: 30px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 2px solid #90ADC6;
+	text-align: left;
+}
+
+.login-info p {
+	margin: 8px 0;
+	color: #333;
+	font-size: 14px;
+}
+
+.login-info code {
+	background-color: #f0f0f0;
+	padding: 3px 8px;
+	border-radius: 4px;
+	font-family: 'Courier New', monospace;
+	color: #400080;
+	font-weight: bold;
+}
+
+.logout-btn {
+	background-color: #ff471a;
+	color: white;
+	padding: 8px 20px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.25s;
+	font-size: 14px;
+}
+
+.logout-btn:hover {
+	background-color: #cc0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+{
+  "name": "kraken-hair-salon",
+  "version": "1.0.0",
+  "description": "Hair salon booking system with Express and SQLite",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": ["express", "sqlite", "booking"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "cors": "^2.8.5",
+    "express-session": "^1.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
