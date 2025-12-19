@@ -16,6 +16,10 @@ Going through the expected course outcomes, I was able to meet two of them speci
 
 The updated application that now runs as a Python script from within these files as "main.py" meets these outcomes by first developing a front-end database with Python and SQLite which fosters collaboration by allowing users, including those without programming expertise, to easily input data and contribute to a more inclusive and efficient working envrionment by being able to easily update records and providing ease of use. Given the data-centric nature of this project, robust security protocols were implemented by having the database reside locally rather than online, files utilizing encoding to prevent unauthorized access, all inputs are now processed as a string and incorporated into a database upon activation via a designated button, various SQL injection methods including attempts such as 105: Drop Table addresses were systematically tested. Overall there were no SQL Injection attempts that were successful which indiciates that hte program meets security requirements. 
 
+## <pre align="center"> Future Updates to this artifact </pre>
+
+The updated Customer Records Database application with a completely new GUI does provide for users without any scripting knowledge to be able to easily utilize this tool. It can be incorporated into a business that would need to store any sort of information so I believe I would try to continue to update it to help streamline this process. Perhaps adding additional secuirty precautions to re-ensure potential clients that their information is safe and secured. 
+
 ## <pre align="center"> Original Project </pre>
 
 <img src="OriginalProject.png">
