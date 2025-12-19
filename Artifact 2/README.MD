@@ -23,3 +23,6 @@ The Zodiac slideshow demoonstrates a professionaly designed and developed soluti
 The applicaiton itself serves its purpose of educating the user about the twelve zodiac signs as well as some basic information about them. If this applicaiton were to be useful today, it would have to either contain information that users have never seen before or transformed and utilized as an application within a website for instance. I believe that I will take the first route and cnotinue to expand on my object-oriented programming skills and see what else I can do to make this more appealing such as adding a connection to a database that has additional information about eash zodiac sign.
 
 
+## <pre align="center"> Original Slideshow - Destination Trips </pre>
+
+<img src="OriginalDestination.png">
