@@ -26,7 +26,7 @@ The first artifact of this portfolio is a Hair Salon website where customers can
 
 <center> <a href="https://github.com/MexiOtter84/troy_ayon.github.io/tree/master" title="Click here to view the artifact report"><img src="KrakensSalon.png" height=400></a> </center>
 
-<code> You can see the full report and code for this project <a href=""> HERE </a>. </code>
+<code> You can see the full report and code for this project <a href="https://github.com/MexiOtter84/troy_ayon.github.io/tree/master"> HERE </a>. </code>
 
 <br>
 
